@@ -1,0 +1,44 @@
+A.會產生 switch 內部的廣播風暴，好一點的 switch 會自動的關閉被你連接的那幾個埠口，
+  差一點或者是沒有設定防堵機制的 switch 可能會熱當或者是造成連接到該 switch 的所有設備無法連線。
+
+B.STP/RSTP 
+
+C.使用者須等待較長的時間才能取得dhcp
+
+D.可以
+
+E.Netmask : 255.255.255.224
+  Network : 192.168.10.96
+  Broadcast : 192.168.10.127
+  IP range : 192.168.10.97 ~ 192.168.10.126
+
+F.LACP、bonding
+
+G.頻寬有無合併
+
+H./proc/net/bonding/bond1
+
+I.
+
+J.activebackup 對應 mode1
+  loadbalance 對應 mode6
+
+K.broadcast
+  roundrobin
+  activebackup
+  loadbalance
+  lacp
+  
+L.IPv6 : 128bits
+  IPv4 : 32bits
+  
+M.7個，16bits
+
+N.fe80::/64
+
+O.FC00:: ~ FDFF::
+
+P.2001:0db8::/32
+
+Q.2001:0db8:0300::0001:0:0
+  
